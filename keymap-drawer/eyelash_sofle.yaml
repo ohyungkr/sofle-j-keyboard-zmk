@@ -106,7 +106,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - RGB OFF
-  - RGB ON
+  - RGB TOG
   - RGB EFF
   - RGB EFR
   - RGB SPI
