@@ -113,7 +113,7 @@
 &trans  &trans                   &trans                &trans                &trans                &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(LS(GRAVE))        &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LC(LG(LA(T)))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(LS(PRINTSCREEN))  &kp LS(LG(S))         &trans                &kp LS(LG(V))         &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp C_AL_FILES           &kp K_WWW             &kp K_CALCULATOR      &kp LA(LG(V))         &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_AL_FILES           &kp K_WWW             &kp K_CALCULATOR      &kp LA(LG(LC(V)))     &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans                   &trans                &trans                &trans                &trans               &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
