@@ -1,5 +1,6 @@
 # Sofle
 
+- [한국어](README_KR.md)
 - [中文](README.md)
 - [English](README_EN.md)
 
