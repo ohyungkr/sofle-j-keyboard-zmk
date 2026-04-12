@@ -236,7 +236,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - AL FILE BROWSER
+  - AL FILES
   - WWW
   - CALCULATOR
   - Alt+Gui+V
