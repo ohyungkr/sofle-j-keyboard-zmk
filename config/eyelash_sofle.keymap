@@ -72,7 +72,7 @@
         layer_0 {
             bindings = <
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &mmv MOVE_UP     &kp N6     &kp N7  &kp N8         &kp N9     &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &mmv MOVE_DOWN   &kp Y      &kp U   &kp I          &kp O      &kp P       &kp BSLH
+&lt 3 TAB   &kp Q      &kp W         &kp E         &kp R   &kp T        &mmv MOVE_DOWN   &kp Y      &kp U   &kp I          &kp O      &kp P       &kp BSLH
 &kp CAPS    &kp A      &kp S         &kp D         &kp F   &kp G        &mmv MOVE_LEFT   &kp H      &kp J   &kp K          &kp L      &kp SEMI    &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &mmv MOVE_RIGHT  &kp N      &kp M   &kp COMMA      &kp DOT    &kp FSLH    &kp ENTER
 &kp C_MUTE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &tog 1  &kp SPACE    &mkp LCLK        &kp SPACE  &tog 2  &kp RIGHT_ALT  &kp RCTRL  &kp DELETE
@@ -98,11 +98,11 @@
         layer_2 {
             display-name = "Layer2";
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans  &trans  &trans  &trans  &trans     &trans
-&trans     &trans        &mkp LCLK     &mkp MCLK     &mkp RCLK     &mkp MB4        &mmv MOVE_DOWN   &trans  &trans  &trans  &trans  &kp UNDER  &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE  &trans        &trans        &mkp MB5        &mmv MOVE_LEFT   &trans  &trans  &trans  &trans  &kp LBRC   &kp RBRC
-&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans     &trans
-&to 0      &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans  &trans  &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &trans     &trans    &trans    &trans     &trans     &trans
+&trans     &trans        &mkp LCLK     &mkp MCLK     &mkp RCLK     &mkp MB4        &mmv MOVE_DOWN   &kp PG_UP  &trans    &kp UP    &trans     &kp UNDER  &kp PLUS
+&trans     &out OUT_USB  &out OUT_BLE  &trans        &trans        &mkp MB5        &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp LBRC   &kp RBRC
+&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans     &trans    &trans    &trans     &trans     &trans
+&to 0      &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans     &trans    &trans    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -110,11 +110,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                &trans                &trans                &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LS(GRAVE))        &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &kp LS(LC(NUMBER_3))  &kp LC(LG(LA(T)))    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(LS(PRINTSCREEN))  &kp LS(LG(S))         &trans                &kp LS(LG(V))         &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp C_MEDIA_HOME         &kp C_MEDIA_WWW       &kp K_CALC            &kp LA(LG(V))         &trans               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans                   &trans                &trans                &trans                &trans               &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "layer3";
