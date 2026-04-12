@@ -239,7 +239,7 @@ layers:
   - AL FILES
   - WWW
   - CALCULATOR
-  - Alt+Gui+V
+  - Alt+Gui+Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
