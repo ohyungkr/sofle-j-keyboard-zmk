@@ -117,7 +117,7 @@
 &trans  &trans                   &trans                &trans                &trans                &trans               &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            display-name = "layer3";
+            display-name = "Layer3";
             sensor-bindings = <&scroll_encoder>;
         };
 
