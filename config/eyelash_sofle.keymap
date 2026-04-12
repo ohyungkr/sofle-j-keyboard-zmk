@@ -88,7 +88,7 @@
 &trans           &kp GRAVE        &mkp LCLK        &mkp MCLK        &mkp RCLK        &mkp MB4           &kp DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans           &kp TILDE        &trans           &trans           &trans           &mkp MB5           &kp LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &rgb_ug RGB_OFF  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD    &kp RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE       &trans           &trans           &trans           &trans           &trans             &kp RET    &trans           &trans           &trans      &trans     &trans
+&to 0            &trans           &trans           &trans           &trans           &trans             &kp RET    &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "Layer1";
@@ -102,7 +102,7 @@
 &trans     &trans        &mkp LCLK     &mkp MCLK     &mkp RCLK     &mkp MB4        &mmv MOVE_DOWN   &trans  &trans  &trans  &trans  &kp UNDER  &kp PLUS
 &trans     &out OUT_USB  &out OUT_BLE  &trans        &trans        &mkp MB5        &mmv MOVE_LEFT   &trans  &trans  &trans  &trans  &kp LBRC   &kp RBRC
 &trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans  &trans     &trans
-&trans     &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans  &trans  &trans
+&to 0      &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
