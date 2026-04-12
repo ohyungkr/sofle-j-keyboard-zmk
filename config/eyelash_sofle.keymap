@@ -45,7 +45,7 @@
 
         softoff {
             bindings = <&soft_off>;
-            key-positions = <57 59>;
+            key-positions = <14 28 40>;
         };
     };
 
