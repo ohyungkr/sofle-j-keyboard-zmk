@@ -326,5 +326,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [51, 38, 25]
+- p: [40, 53, 54]
   k: '&soft_off'
